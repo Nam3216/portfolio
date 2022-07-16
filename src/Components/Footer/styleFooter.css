@@ -1,0 +1,20 @@
+.footer{
+    background-color: rgb(196, 188, 188);
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+   
+    
+
+}
+
+.footer a{
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+#arrow{
+    margin-top: 2px;
+}

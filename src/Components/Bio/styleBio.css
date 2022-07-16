@@ -1,0 +1,142 @@
+.bio-container{
+    /*width: 1200px;*/
+    
+    margin: 0 auto;
+    display: block;
+   
+   text-align: left;
+}
+.bio-container a{
+    margin-top: 10px;
+}
+
+.bio-text{
+    width: 80%;
+    margin: 0 auto;
+    margin-left:20px ;
+}
+.links a{
+    display: block;
+}
+
+.links{
+    width: 80%;
+
+    margin: 0 auto;
+    margin-left: 20px;
+
+}
+
+.bio-container-container {
+    text-align: left;
+    margin: 0 auto;
+ 
+    }
+
+.bio-container-container img{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+}
+.links p{
+    cursor: pointer;
+}
+
+#title-curriculum{
+    height: 70px;
+}
+
+#title-curriculum-new{
+    height: 70px;
+    transition: 0.5s all ease-in-out;
+}
+
+
+#title-curriculum-new:hover{
+    transform: scale(1.1);
+}
+
+.links-a{
+    font-weight: 600;
+    
+    color: black;
+}
+
+.links-a:hover{
+   
+    color: rgb(21, 21, 228);
+}
+@media screen and (min-width: 1000px) {
+    .bio-container{
+        /*width: 1200px;*/
+        
+        margin: 0 auto;
+        display: flex;
+        margin-left: 180px;
+       text-align: left;
+    }
+    .bio-container a{
+        margin-top: 10px;
+    }
+    
+    .bio-text{
+        width: 600px;
+        margin-left: 130px;
+       
+      
+    }
+    .links a{
+        display: block;
+    }
+    
+    .links{
+        width: 500px;
+    
+        margin-right: 210px;
+        margin-left: 0;
+       
+    }
+
+ 
+    
+    .bio-container-container {
+        text-align: left;
+        margin: 0 auto;
+     
+        }
+    
+    .bio-container-container img{
+        margin-left: 350px;
+        margin-bottom: 50px;
+    }
+    
+    #title-curriculum{
+        height: 70px;
+        
+              
+    }
+    #title-curriculum-new{
+        height: 70px;
+        animation-name: fade-in;
+        animation-duration:2s;
+        z-index: 1;
+    }
+
+    @keyframes fade-in {
+        0% {
+            -webkit-transform: scale(2);
+                    transform: scale(2);
+            -webkit-filter: blur(4px);
+                    filter: blur(4px);
+            opacity: 0;
+          }
+          100% {
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+            -webkit-filter: blur(0px);
+                    filter: blur(0px);
+            opacity: 1;
+          }
+    }
+
+}

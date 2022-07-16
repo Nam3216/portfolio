@@ -1,0 +1,165 @@
+.projects{
+    text-align: center;
+}
+.projects-container{
+    width: fit-content;
+   
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: left;
+    margin-right: 20px;
+   
+}
+
+#title-projects{
+    margin-left: 50px;
+    margin-bottom: 50px;
+   transition: 0.5s all ease-in-out;
+}
+
+
+#title-projects:hover{
+    
+    transform: scale(1.1);
+  
+}
+
+.img-project{
+    margin-top: 30px;
+    width: 200px;
+    height: 100px;
+   /* object-fit: cover;*/
+   display: inline-block;
+}
+
+#img-react{
+    width: 100px;
+    height: 100px;
+}
+
+#img-ts{
+    width: 90px;
+    height: 90px;
+}
+
+.project-item{
+    margin-bottom: 80px;
+    display: block;
+}
+
+.img-project-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-project-container{
+    width: 80%;
+   /* margin: 0 auto;*/
+   margin-left: 5%;
+}
+
+.text-project-container h4{
+    margin-bottom: 10px;
+    
+}
+
+.link-git{
+    margin-top: 10px;
+}
+.link-git p{
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(2, 2, 80);
+}
+
+.link-git p:hover{
+    color: rgb(21, 21, 228);
+}
+.text-project-container h4{
+    color: rgb(2, 2, 80);
+}
+
+.img-project-container h4{
+    color: rgb(2, 2, 80);
+}
+
+@media screen and (min-width: 1000px) {
+
+    .projects-container{
+        width: fit-content;
+       
+       /* margin: 0 auto;*/
+        margin-top: 70px;
+        margin-left: 310px;
+        text-align: left;
+        margin-right: 0px;
+
+       
+    }
+    
+    #title-projects{
+        margin-bottom: 50px;
+       
+        animation-name: fade-in;
+        animation-duration:2s;
+              
+    }
+    @keyframes fade-in {
+        0% {
+            -webkit-transform: scale(2);
+                    transform: scale(2);
+            -webkit-filter: blur(4px);
+                    filter: blur(4px);
+            opacity: 0;
+          }
+          100% {
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+            -webkit-filter: blur(0px);
+                    filter: blur(0px);
+            opacity: 1;
+          }
+    }
+        
+    
+    .img-project{
+        margin-top: 30px;
+        width: 200px;
+        height: 100px;
+       /* object-fit: cover;*/
+       display: inline-block;
+    }
+    
+    #img-react{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #img-ts{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .project-item{
+        margin-bottom: 80px;
+        display: flex;
+    }
+    
+    .img-project-container{
+        width: fit-content;
+       margin-left: 10px;
+    }
+    
+    .text-project-container{
+        width: 600px;
+        margin-left:0;
+        margin-right: 40px;
+    }
+    
+    .text-project-container h4{
+        margin-bottom: 10px;
+        
+    }
+
+
+}
