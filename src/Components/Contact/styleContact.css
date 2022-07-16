@@ -167,13 +167,13 @@ textarea{
 
     #title-contact-new{
         height: 70px;
-        animation-name: fade-in;
-        animation-duration:2s;
+     /*   animation-name: fade-in;
+        animation-duration:2s;*/
         margin-left: 350px;
     }
 
 
-    @keyframes fade-in {
+   /* @keyframes fade-in {
         0% {
             -webkit-transform: scale(2);
                     transform: scale(2);
@@ -188,5 +188,5 @@ textarea{
                     filter: blur(0px);
             opacity: 1;
           }
-    }
+    }*/
 }
