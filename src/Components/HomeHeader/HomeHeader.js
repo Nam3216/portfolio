@@ -9,6 +9,7 @@ const HomeHeader=()=>{
         
        
         <div className="home-header">
+          
             <div className="header-text">
                 <h3>Hola!, mi nombre es Norberto Manzanos y soy desarrollador React Front-End. En esta página podrás encontrar mis proyectos realizados con HTML, CSS, JAVASCRIPT, TYPESCRIPT y REACT. También conocerás el detalle de las tecnologías que he aprendido, como así también mi curriculum vitae.</h3>
                 <div className="info">
@@ -18,8 +19,7 @@ const HomeHeader=()=>{
                
             </div>
             <img src="coder.png" id="img-coder"/>
-            
-            
+     
         </div>
            
        

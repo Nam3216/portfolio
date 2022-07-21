@@ -83,7 +83,7 @@
     color: rgb(2, 2, 80);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1076px) {
 
     .projects-container{
         width: fit-content;

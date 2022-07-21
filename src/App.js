@@ -24,9 +24,8 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/proyectos" element={<Projects/>}/>
-            <Route path="/bio" element={<div>bio</div>}/>
-            <Route path="/contacto" element={<div>contacto</div>}/>
+            <Route path="/portfolio" element={<Home/>}/>
+           
            
 
           </Routes>
@@ -42,3 +41,6 @@ function App() {
 }
 
 export default App;
+/* <Route path="/proyectos" element={<Projects/>}/>
+            <Route path="/bio" element={<div>bio</div>}/>
+            <Route path="/contacto" element={<div>contacto</div>}/>*/

@@ -14,13 +14,12 @@
 }
 #title-contact{
     margin-left: 50px;
-   
     height:70;
 }
 
 #title-contact-new{
     margin-left: 50px;
-    height:70;
+    height:370;
     transition: 0.5s all ease-in-out;
 }
 
@@ -40,20 +39,27 @@ form{
 input{
     display: block;
     /*margin: 0 auto;*/
-    width: 250px;
+   /* max-width: 400px;
+    min-width: 250px;*/
+   min-width: 80vw;
+   max-width: 900vw;
     margin-bottom: 30px;
     text-align: left;
     /*margin-left: 300px;*/
+    border: 1px solid black;
 
 }
 
 textarea{
-    width: 250px;
+   
+    min-width: 80vw;
+    max-width: 900vw;
     height: 250px;
     display: block;
    /* margin-left: 580px;*/
     text-align: left;
   /*  margin-left: 300px;*/
+  border: 1px solid black;
 }
 
 #send-button{
@@ -91,7 +97,7 @@ textarea{
     
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1076px) {
 
     .contact-container{
         text-align: left;
@@ -117,20 +123,24 @@ textarea{
     input{
         display: block;
         /*margin: 0 auto;*/
-        width: 500px;
+        min-width: 500px;
         margin-bottom: 30px;
         text-align: left;
         margin-left: 310px;
+        
+        
+       
     
     }
     
     textarea{
-        width: 500px;
+        min-width: 500px;
         height: 250px;
         display: block;
        /* margin-left: 580px;*/
         text-align: left;
         margin-left: 310px;
+        
     }
     
     #send-button{
@@ -173,20 +183,5 @@ textarea{
     }
 
 
-   /* @keyframes fade-in {
-        0% {
-            -webkit-transform: scale(2);
-                    transform: scale(2);
-            -webkit-filter: blur(4px);
-                    filter: blur(4px);
-            opacity: 0;
-          }
-          100% {
-            -webkit-transform: scale(1);
-                    transform: scale(1);
-            -webkit-filter: blur(0px);
-                    filter: blur(0px);
-            opacity: 1;
-          }
-    }*/
+ 
 }

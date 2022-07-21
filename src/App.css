@@ -24,15 +24,20 @@ main{
   flex-direction: column;
   text-align: center;
   background-image: url("./light.png");
-  background-size: 100%;
+  background-size: 100vw;
   background-repeat: no-repeat;
+ width: 100%;
+  
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1076px)  {
   .content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 40px 1fr 1fr 50px;
+    
+   
+    
   }
 
   header{
@@ -43,12 +48,18 @@ main{
   main{
     grid-column: 1/5;
     grid-row:2/4 ;
+    background-image: url("./light.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+   
+   /* width: 100%;*/
     
   }
   
   footer{
     grid-column: 1/5;
     grid-row:4/5 ;
+    
   }
 
   }

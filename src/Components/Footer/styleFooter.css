@@ -1,9 +1,11 @@
 .footer{
+    width: inherit;
     background-color: rgb(196, 188, 188);
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     height: 40px;
     display: flex;
     justify-content: center;
+    
    
     
 

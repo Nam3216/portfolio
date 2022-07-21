@@ -9,6 +9,7 @@
 .navbar ul{
     display: flex;
     justify-content: center;
+    margin-right: 30px;
     
    
     
@@ -17,6 +18,7 @@
 
 .navbar li{
     margin-top: 15px;
+   
     
 }
 
@@ -46,7 +48,64 @@
     display: none;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 480px) {
+    .navbar{
+  
+        background-color: black;
+        height: 50px;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .navbar ul{
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+        
+       
+        
+       
+    }
+    
+    .navbar li{
+        margin-top: 15px;
+       
+        
+    }
+    
+    .icon{
+        display: none;
+    }
+    
+    .navbar ul li a{
+        color: white;
+        font-weight: 600;
+        
+        font-size: xx-small;
+        margin: auto;
+        padding: 10px;
+        
+      
+        
+       
+        
+    }
+    
+    .icon{
+        color: white;
+        margin-top: 12px;
+        margin-right: 5px;
+        
+    }
+    
+    
+    
+    .titleimg{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1076px) {
 
     .navbar{
   
@@ -60,6 +119,7 @@
     .navbar ul{
         display: flex;
         justify-content: center;
+        margin-right: 0;
         
        
         
