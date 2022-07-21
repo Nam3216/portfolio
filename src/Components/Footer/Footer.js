@@ -6,8 +6,9 @@ const Footer=()=>{
 
     return(
         <div className="footer"><ArrowUpwardIcon id="arrow" />
-        <div>
-            <a href="#home">Ir arriba </a></div>
+            <div className="footer-footer">
+                <a href="#home">Ir arriba </a>
+            </div>
         </div>
     )
 }

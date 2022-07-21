@@ -30,13 +30,17 @@ main{
   
 }
 
+.content{
+  width: 100%;
+}
+
 @media screen and (min-width: 1076px)  {
   .content{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns:repeat(4fr) ;/*poner asi y no 1fr 1fr 1fr 1fr*/
     grid-template-rows: 40px 1fr 1fr 50px;
-    
-   
+    /*width: 100vw;*/
+      
     
   }
 
@@ -49,7 +53,7 @@ main{
     grid-column: 1/5;
     grid-row:2/4 ;
     background-image: url("./light.png");
-    background-size: 100vw;
+    background-size: 100%;
     background-repeat: no-repeat;
    
    /* width: 100%;*/
@@ -59,6 +63,7 @@ main{
   footer{
     grid-column: 1/5;
     grid-row:4/5 ;
+  /*  width: 100vw;*/
     
   }
 

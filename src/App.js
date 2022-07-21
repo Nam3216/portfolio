@@ -16,8 +16,9 @@ function App() {
   },[])
   return (
     <div className="App">
-      <BrowserRouter>
       <div className='content'>
+      <BrowserRouter>
+      
         <header>
           <Navbar/>
         </header>
@@ -30,12 +31,13 @@ function App() {
 
           </Routes>
       </main>
-    </div>
+    
     <footer>
       <Footer/>
     </footer>
+  
     </BrowserRouter>
-
+      </div>
     </div>
   );
 }

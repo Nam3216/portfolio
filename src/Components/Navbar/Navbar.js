@@ -15,7 +15,7 @@ const Navbar=()=>{
        
         <div className="navbar">
             
-            <ul><div className="titleimg"><img src="titlemanzanosnavbar.png" alt="cargando" id="navimg"/></div>
+            <ul><div className="titleimg"><img src="portfolio/titlemanzanosnavbar.png" alt="cargando" id="navimg"/></div>
                 <div className="icon"><CottageOutlinedIcon /></div>
                 <li><a href={"#home"}>Inicio</a> </li>
                 <div className="icon"><CodeIcon /></div>
