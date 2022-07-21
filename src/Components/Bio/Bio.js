@@ -29,7 +29,7 @@ const Bio=()=>{
 
     return (
         <div className="bio-container-container" id="curriculum" >
-            <img src="titlecurriculum.png" alt="cargando"  id={check ? "title-curriculum" : "title-curriculum-new"} />
+            <img src="portfolio/titlecurriculum.png" alt="cargando"  id={check ? "title-curriculum" : "title-curriculum-new"} />
 
             <div className="bio-container">
                 <div className="bio-text">

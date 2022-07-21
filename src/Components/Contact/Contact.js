@@ -54,7 +54,7 @@ const Contact=()=>{
     return (
         <div className="contact-container" id="contacto">
 
-            <img src="titlecontacto.png" alt="cargando"  style={{height:70}} id={check ? "title-contact" : "title-contact-new"}  />
+            <img src="portfolio/titlecontacto.png" alt="cargando"  style={{height:70}} id={check ? "title-contact" : "title-contact-new"}  />
             <div className="contact-info">
                 <p>Enviame un mail a norbertomanzanos@gmail.com. Llamame o enviame Whatsapp a 54 9 1133232167.O en su defecto utiliza el formulario de abajo:</p>
                 

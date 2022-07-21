@@ -7,7 +7,7 @@ const Projects=()=>{
 
     return(
         <div className="projects-container" id="proyectos">
-            <img src="titleproyectos.png" alt="cargando" style={{height:70}} id="title-projects"/>
+            <img src="portfolio/titleproyectos.png" alt="cargando" style={{height:70}} id="title-projects"/>
             <div className="project-item">
                 <div className="text-project-container">
                     <h4>Nombre: E-commerce de Ropa</h4>
@@ -17,9 +17,9 @@ const Projects=()=>{
                 </div>
                 <div className="img-project-container">
                     <h4>Tecnologías aplicadas</h4>
-                    <img src="html3.png" alt="cargando" className="img-project" />
+                    <img src="portfolio/html3.png" alt="cargando" className="img-project" />
                 
-                    <img src="react.jpg" alt="cargando" className="img-project" id="img-react"  />
+                    <img src="portfolio/react.jpg" alt="cargando" className="img-project" id="img-react"  />
                 </div>
                 
             </div>
@@ -33,9 +33,9 @@ const Projects=()=>{
                 </div>
                 <div className="img-project-container">
                     <h4>Tecnologías aplicadas</h4>
-                    <img src="html3.png" alt="cargando" className="img-project" />
+                    <img src="portfolio/html3.png" alt="cargando" className="img-project" />
                 
-                    <img src="react.jpg" alt="cargando" className="img-project" id="img-react"  />
+                    <img src="portfolio/react.jpg" alt="cargando" className="img-project" id="img-react"  />
                 </div>
             </div>
 
@@ -48,9 +48,9 @@ const Projects=()=>{
                 </div>
                 <div className="img-project-container">
                     <h4>Tecnologías aplicadas</h4>
-                    <img src="html3.png" alt="cargando" className="img-project" />
-                    <img src="ts.png" alt="cargando" className="img-project" id="img-ts"  />
-                    <img src="react.jpg" alt="cargando" className="img-project" id="img-react"  />
+                    <img src="portfolio/html3.png" alt="cargando" className="img-project" />
+                    <img src="portfolio/ts.png" alt="cargando" className="img-project" id="img-ts"  />
+                    <img src="portfolio/react.jpg" alt="cargando" className="img-project" id="img-react"  />
                     
                 </div>
             </div>

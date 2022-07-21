@@ -18,7 +18,7 @@ const HomeHeader=()=>{
                 </div>
                
             </div>
-            <img src="coder.png" id="img-coder"/>
+            <img src="portfolio/coder.png" id="img-coder"/>
      
         </div>
            
