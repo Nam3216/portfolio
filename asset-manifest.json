@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.24963ebd.css",
-    "main.js": "/portfolio/static/js/main.8bb1aeca.js",
+    "main.css": "/portfolio/static/css/main.eb9af61b.css",
+    "main.js": "/portfolio/static/js/main.01557d57.js",
     "static/js/787.ae0d8d37.chunk.js": "/portfolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/light.png": "/portfolio/static/media/light.a76abcc9d4cde5365f93.png",
     "static/media/curriculum_Norberto_Manzanos.pdf": "/portfolio/static/media/curriculum_Norberto_Manzanos.57a0a8c6665036d7762c.pdf",
     "static/media/certificado_javascript.pdf": "/portfolio/static/media/certificado_javascript.2239621b3132198c1532.pdf",
     "static/media/certificado_react.pdf": "/portfolio/static/media/certificado_react.0219bf1429b447128ece.pdf",
     "index.html": "/portfolio/index.html",
-    "main.24963ebd.css.map": "/portfolio/static/css/main.24963ebd.css.map",
-    "main.8bb1aeca.js.map": "/portfolio/static/js/main.8bb1aeca.js.map",
+    "main.eb9af61b.css.map": "/portfolio/static/css/main.eb9af61b.css.map",
+    "main.01557d57.js.map": "/portfolio/static/js/main.01557d57.js.map",
     "787.ae0d8d37.chunk.js.map": "/portfolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24963ebd.css",
-    "static/js/main.8bb1aeca.js"
+    "static/css/main.eb9af61b.css",
+    "static/js/main.01557d57.js"
   ]
 }
